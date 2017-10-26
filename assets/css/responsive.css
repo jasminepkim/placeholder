@@ -1,0 +1,158 @@
+/* ================================================== 
+*	Version: 1.0.0
+*	css code for responsive layout
+*	To make Responsive
+================================================== */
+
+/* ==================================================
+*	1 - media screen and (max-width: 1199px)
+*	2 - media screen and (max-width: 991px)
+*	3 - media screen and (max-width: 767px)
+*	4 - media screen and (max-width: 680px)
+*	5 - media screen and (max-width: 480px)
+*	6 - media screen and (max-width: 320px)
+================================================== */
+
+
+
+
+
+/*  ====================================================================================================
+1 - media screen and (max-width: 1199px) - start
+==================================================================================================== */
+
+@media screen and (max-width: 1199px) {
+	.header-section .introduction {padding: 16% 15%;}
+	.section-title {padding: 0 110px;}
+	.section-title h2 {
+		font-size: 24px;
+		margin-bottom: 20px;
+	}
+	.experience-section ul.date li {width: 170px;}
+	.my-service-section .service {padding: 30px 15px;}
+	.contact-form-section .address {
+		height: 60px;
+		padding: 0px;
+	}
+}
+
+/* ====================================================================================================
+1 - media screen and (max-width: 1199px) - end
+==================================================================================================== */
+
+
+
+
+
+/* ====================================================================================================
+2 - media screen and (max-width: 991px) - start --->>>for medium device
+==================================================================================================== */
+
+@media screen and (max-width: 991px) {
+	.left-sidebar-section {display: none;}
+	.main-body-section {width: 100%;}
+	.header-section .introduction {padding: 16% 16%;}
+	.about-section .about-video {margin-bottom: 30px;}
+	.my-service-section .service {
+		padding: 30px;
+		max-width: 360px;
+		margin: 15px auto;
+	}
+	.counter-section .counter {margin-bottom: 30px;}
+	.pricing-section .pricing-table {margin-bottom: 30px;}
+	.latest-blog-carousel .blog {
+		max-width: 460px;
+		margin: 0 auto;
+	}
+	.contact-form-section .address {
+		padding: 15px;
+		display: table;
+	}
+}
+
+/* ====================================================================================================
+2 - media screen and (max-width: 991px) - end --->>>for medium device
+==================================================================================================== */
+
+
+
+
+
+/* ====================================================================================================
+3 - media screen and (max-width: 767px) - start --->>>For Mobile Device
+==================================================================================================== */
+
+@media screen and (max-width: 767px){}
+
+/* ====================================================================================================
+3 - media screen and (max-width: 767px) - end --->>>For Mobile Device
+==================================================================================================== */
+
+
+
+
+
+/* ====================================================================================================
+4 - media screen and (max-width: 680px) - start
+==================================================================================================== */
+
+@media screen and (max-width: 680px){}
+
+/* ====================================================================================================
+4 - media screen and (max-width: 680px) - end
+==================================================================================================== */
+
+
+
+
+
+/* ====================================================================================================
+5 - media screen and (max-width: 480px) - start
+==================================================================================================== */
+
+@media screen and (max-width: 480px){
+	.header-section .introduction {padding: 16% 5%;}
+	.header-section .introduction h1 {font-size: 30px;}
+	.section-title {padding: 0px 0px;}
+	.section-title h2 {font-size: 18px;}
+	.single-experties {padding: 15px 15px 0px;}
+	.portfolio-section .button-group .button {margin: 0px 5px;}
+	.portfolio-section {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.portfolio-section .element-item {
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+	.experience-section ul.date li {margin-bottom: 30px;}
+	.experience-section ul.date li:after {display: none;}
+	.my-reputation-section .card-panel {max-width: 280px;}
+	.footer-section {height: auto;}
+}
+
+/* ====================================================================================================
+5 - media screen and (max-width: 480px) - end
+==================================================================================================== */
+
+
+
+
+
+/* ====================================================================================================
+6 - media screen and (max-width: 320px) - start
+==================================================================================================== */
+
+@media screen and (max-width: 320px){
+	.header-section .introduction h1 {font-size: 24px;}
+	.portfolio-section .button-group .button {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.experience-section ul.date li {width: 100%;}
+}
+
+/* ====================================================================================================
+6 - media screen and (max-width: 320px) - end
+==================================================================================================== */
